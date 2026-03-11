@@ -106,7 +106,7 @@ The custom webpage successfully loads from the docker container running on AWS E
 Example output:
 ```
 Hello From Bijendra's Docker Container
-This website is running inside a DOcker container on AWS EC2
+This website is running inside a Docker Container on AWS EC2
 ```
 ## Screenshots
 Screenshots included in the repository demonstrate:
