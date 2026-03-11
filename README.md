@@ -29,7 +29,9 @@ Browser Access (Public IP:8080)
 - Linux(Ubuntu)
 - GitHub
 - HTML
+```
 ## Project Structure
+```
 dockerized-custom-website
   ├────── Dockerfile
   ├────── index.html
