@@ -21,6 +21,7 @@ AWS EC2 Instance (Ubuntu Server)
      User Browser
 (Access via EC2 Public IP:8080)
 ```
+![Docker Deployment Architecture](screenshots/architecture-diagram.png)
 ## Technologies Used
 ```
 - AWS EC2
