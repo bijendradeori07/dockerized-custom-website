@@ -103,7 +103,7 @@ http://<ec2-public-ip:8080>
 ```
 ## Deployment Result
 The custom webpage successfully loads from the docker container running on AWS EC2.
-Example output:
+Expected Output:
 ```
 Hello From Bijendra's Docker Container
 This website is running inside a Docker Container on AWS EC2
@@ -130,6 +130,30 @@ Screenshots included in the repository demonstrate:
 - Process management
 - File System operations
 
+## Container Lifecycle Management
+During deployment testing, the container was rebuilt to ensure the updated website content was correctly served from the Docker image.
+To apply the updated configuration and web files, the existing container was stopped and removed before rebuilding the image.
+### Stop Running Container
+```
+sudo docker stop $(sudo docker ps -q)
+```
+### Remove Container
+```
+sudo docker rm $(sudo docker ps -aq)
+```
+### Remove Existing Docker Image
+```
+sudo docker rmi bijendra-web
+```
+### Rebuild Docker Image
+```
+sudo docker build --no-cache -t bijendra-web .
+```
+### Run Docker Container
+```
+sudo docker run -d -p 8080:80 bijendra-web
+```
+This process ensures that the latest application code and Docker configuration are properly deployed
 ## Key Learning Outcomes
 - Understanding how containerization works in real deployment
 - Running web applications inside Docker containers
