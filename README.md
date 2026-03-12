@@ -7,19 +7,19 @@ The application is built using a simple HTML page, containerized using Docker an
 ```
        Developer 
            ↓
-   GitHub Repository
-           ↓
 AWS EC2 Instance (Ubuntu Server)
            ↓
-Dockerfile + index.html
+   Application Files
+(Dockerfile + index.html)
            ↓
-     Docker Build
+  Docker Build Command
            ↓
-  Docker Image (Nginx)
+     Docker Image 
            ↓
-   Docker Container
+ Docker Container(Nginx)
            ↓
-Browser Access (Public IP:8080)
+     User Browser
+(Access via EC2 Public IP:8080)
 ```
 ## Technologies Used
 ```
