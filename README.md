@@ -111,9 +111,13 @@ This website is running inside a Docker Container on AWS EC2
 ## Screenshots
 Screenshots included in the repository demonstrate:
 - EC2 instance configuration
+![EC2-instance][screenshots/ec2-instances.png]
 - Docker image build
+![Docker Image][screenshots/docker-build.png]
 - Running Docker Container
+![Docker Container][screenshots/running-docker-container.png]
 - Website output in browser
+![Website Output][screenshots/website-output.png]
 
 ## Skills Demostrated
 ### CloudOps Skills
