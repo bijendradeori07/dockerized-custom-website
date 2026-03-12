@@ -9,15 +9,15 @@ The application is built using a simple HTML page, containerized using Docker an
            ↓
    GitHub Repository
            ↓
+AWS EC2 Instance (Ubuntu Server)
+           ↓
 Dockerfile + index.html
            ↓
      Docker Build
            ↓
   Docker Image (Nginx)
            ↓
-    Docker Container
-           ↓
-   AWS EC2 Instances
+   Docker Container
            ↓
 Browser Access (Public IP:8080)
 ```
